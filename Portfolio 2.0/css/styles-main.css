@@ -1,5 +1,5 @@
 main{
-    width: 70vw;
+    width: 72vw;
     margin: 0 auto;
 }
 
@@ -91,6 +91,7 @@ h1{
 }
 
 .ctnt-section{
+    margin-bottom: 52px;
     padding: 10px;
 }
 
@@ -100,14 +101,14 @@ h1{
     padding-right: 40px;
 }
 
-@media only screen and (min-width: 1532px){
+@media only screen and (min-width: 1280px){
     h1{
-        font-size: 72pt;
+        font-size: 60pt;
     }
 }
 
-@media only screen and (min-width: 1264px){
+@media only screen and (min-width: 1532px){
     h1{
-        font-size: 60pt;
+        font-size: 72pt;
     }
 }
