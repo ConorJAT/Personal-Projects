@@ -40,13 +40,13 @@ p{
 
 #nav-title{
     font-family: "Nunito Sans", Arial, sans-serif;
-    font-size: 18pt;
+    font-size: 8pt;
     font-weight: 700;
 }
 
 #nav-menu a{
     font-family: "Lato", Arial, sans-serif;
-    font-size: 18pt;
+    font-size: 8pt;
     text-decoration: none;
 }
 
@@ -107,11 +107,19 @@ h1{
 }
 
 .ctnt-section p{
-    margin-bottom: 52px;
     padding: 10px;
 
     text-align: justify;
     font-size: 13pt;
+}
+
+.ctnt-section{
+    margin-bottom: 54px;
+    margin-top: 24px;
+}
+
+.ctnt-section p a{
+    text-decoration: none;
 }
 
 .ctnt-image{
@@ -121,6 +129,14 @@ h1{
 @media only screen and (min-width: 620px){
     h1{
         font-size: 24pt;
+    }
+
+    #nav-title{
+        font-size: 10pt;
+    }
+    
+    #nav-menu a{
+        font-size: 10pt;
     }
 
     h3{
@@ -133,6 +149,14 @@ h1{
 }
 
 @media only screen and (min-width: 900px){
+    #nav-title{
+        font-size: 14pt;
+    }
+    
+    #nav-menu a{
+        font-size: 14pt;
+    }
+
     /* Content Flexbox */
     h2{
         font-size: 36pt;
@@ -159,6 +183,14 @@ h1{
 @media only screen and (min-width: 1280px){
     h1{
         font-size: 60pt;
+    }
+
+    #nav-title{
+        font-size: 18pt;
+    }
+    
+    #nav-menu a{
+        font-size: 18pt;
     }
 }
 
