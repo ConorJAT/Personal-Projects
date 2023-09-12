@@ -38,9 +38,18 @@ p{
     text-align: center;
 }
 
-#nav_title{
-    max-width: 815px;
+#nav-title{
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
 }
+
+#nav-menu a{
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 18pt;
+    text-decoration: none;
+}
+
 
 #nav-menu a, #nav-title{
     display: block;
@@ -49,7 +58,7 @@ p{
 }
 
 #nav-menu li {
-    width: 33.333%;
+    width: 25%;
 }
 
 #nav-menu ul li {
