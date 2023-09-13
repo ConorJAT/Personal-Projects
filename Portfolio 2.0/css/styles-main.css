@@ -55,7 +55,7 @@ nav{
     padding: 10px;
 
     font-family: "Nunito Sans", Arial, sans-serif;
-    font-size: 8pt;
+    font-size: 6pt;
     color: white;
     text-decoration: none;
 }
@@ -136,6 +136,12 @@ h1{
 
 .ctnt-image{
     width: 100%;
+}
+
+@media only screen and (min-width: 432px){
+    #nav-menu a, #nav-title{
+        font-size: 8pt;
+    }
 }
 
 @media only screen and (min-width: 620px){
