@@ -28,6 +28,12 @@ p{
     font-size: 18pt;
 }
 
+nav{
+    position: absolute;
+    width: 99.2%;
+    z-index: 10;
+}
+
 /* Navbar Styles */
 #nav-menu{
     display: flex;
@@ -39,23 +45,21 @@ p{
 }
 
 #nav-title{
-    font-family: "Nunito Sans", Arial, sans-serif;
-    font-size: 8pt;
     font-weight: 700;
-}
-
-#nav-menu a{
-    font-family: "Lato", Arial, sans-serif;
-    font-size: 8pt;
-    text-decoration: none;
 }
 
 
 #nav-menu a, #nav-title{
     display: block;
-    background: rgb(255, 255, 255);
+    background: rgb(14, 14, 32);
     padding: 10px;
+
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: 8pt;
+    color: white;
+    text-decoration: none;
 }
+    
 
 #nav-menu li {
     width: 25%;
@@ -66,9 +70,17 @@ p{
 }
 
 #nav-menu ul {
+    display: none;
     list-style: none;
     padding: 0;
-    display: none;
+}
+
+#nav-menu a:hover{
+    background: rgb(31, 31, 48);
+}
+
+#nav-menu a:active{
+    background: rgb(24, 24, 43);
 }
 
 #nav-menu li:hover ul {
@@ -131,11 +143,7 @@ h1{
         font-size: 24pt;
     }
 
-    #nav-title{
-        font-size: 10pt;
-    }
-    
-    #nav-menu a{
+    #nav-menu a, #nav-title{
         font-size: 10pt;
     }
 
@@ -149,11 +157,7 @@ h1{
 }
 
 @media only screen and (min-width: 900px){
-    #nav-title{
-        font-size: 14pt;
-    }
-    
-    #nav-menu a{
+    #nav-menu a, #nav-title{
         font-size: 14pt;
     }
 
@@ -184,12 +188,8 @@ h1{
     h1{
         font-size: 60pt;
     }
-
-    #nav-title{
-        font-size: 18pt;
-    }
     
-    #nav-menu a{
+    #nav-menu a, #nav-title{
         font-size: 18pt;
     }
 }
