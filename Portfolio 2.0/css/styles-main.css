@@ -7,7 +7,7 @@ body{
     padding: 0;
 }
 
-main{
+main, #foot-flex{
     width: 72vw;
     margin: 0 auto;
 }
@@ -52,7 +52,6 @@ nav{
 #nav-title{
     font-weight: 700;
 }
-
 
 #nav-menu a, #nav-title{
     display: block;
@@ -141,6 +140,34 @@ h1{
 
 .ctnt-image{
     width: 100%;
+}
+
+/* Footer Styles */
+footer{
+    background: rgb(14, 14, 32);
+}
+
+#foot-flex{
+    display: flex;
+}
+
+.foot-div{
+    width: 50%;
+    color: white;
+}
+
+h4{
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: 22pt;
+}
+
+.foot-div ul{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 18pt;
+
+    list-style: none;
 }
 
 @media only screen and (min-width: 432px){
