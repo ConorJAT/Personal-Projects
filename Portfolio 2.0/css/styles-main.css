@@ -149,23 +149,26 @@ footer{
 
 #foot-flex{
     display: flex;
+    flex-direction: column;
 }
 
 .foot-div{
-    width: 50%;
+    width: 100%;
     color: white;
 }
 
 h4{
     font-family: "Nunito Sans", Arial, sans-serif;
-    font-size: 22pt;
+    font-size: 16pt;
+
+    border-bottom: 2px solid white;
 }
 
 .foot-div ul{
     margin: 0;
     padding: 0;
     font-family: "Lato", Arial, sans-serif;
-    font-size: 18pt;
+    font-size: 12pt;
 
     list-style: none;
 }
@@ -173,6 +176,14 @@ h4{
 @media only screen and (min-width: 432px){
     #nav-menu a, #nav-title{
         font-size: 8pt;
+    }
+
+    h4{
+        font-size: 22pt;
+    }
+    
+    .foot-div ul{
+        font-size: 18pt;
     }
 }
 
@@ -212,6 +223,16 @@ h4{
         float: left;
         width: 360px;
         padding-right: 40px;
+    }
+
+    /* Footer */
+    #foot-flex{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .foot-div{
+        width: 48%;
     }
 }
 
