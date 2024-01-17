@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UaD River Scorekeeper", "UaD River Scorekeeper\UaD River Scorekeeper.csproj", "{D72A73A4-8CB4-415D-A06C-B1A95A1BC129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D72A73A4-8CB4-415D-A06C-B1A95A1BC129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72A73A4-8CB4-415D-A06C-B1A95A1BC129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72A73A4-8CB4-415D-A06C-B1A95A1BC129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72A73A4-8CB4-415D-A06C-B1A95A1BC129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D2F7081-C5DB-441E-BAE3-60E3CCA11983}
+	EndGlobalSection
+EndGlobal

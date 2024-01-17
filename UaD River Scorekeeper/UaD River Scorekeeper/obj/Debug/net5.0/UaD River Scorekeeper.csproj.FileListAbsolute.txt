@@ -1,0 +1,16 @@
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\bin\Debug\net5.0\UaD River Scorekeeper.exe
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\bin\Debug\net5.0\UaD River Scorekeeper.deps.json
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\bin\Debug\net5.0\UaD River Scorekeeper.runtimeconfig.json
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\bin\Debug\net5.0\UaD River Scorekeeper.runtimeconfig.dev.json
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\bin\Debug\net5.0\UaD River Scorekeeper.dll
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\bin\Debug\net5.0\ref\UaD River Scorekeeper.dll
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\bin\Debug\net5.0\UaD River Scorekeeper.pdb
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\obj\Debug\net5.0\UaD River Scorekeeper.csproj.AssemblyReference.cache
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\obj\Debug\net5.0\UaD River Scorekeeper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\obj\Debug\net5.0\UaD River Scorekeeper.AssemblyInfoInputs.cache
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\obj\Debug\net5.0\UaD River Scorekeeper.AssemblyInfo.cs
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\obj\Debug\net5.0\UaD River Scorekeeper.csproj.CoreCompileInputs.cache
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\obj\Debug\net5.0\UaD River Scorekeeper.dll
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\obj\Debug\net5.0\ref\UaD River Scorekeeper.dll
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\obj\Debug\net5.0\UaD River Scorekeeper.pdb
+C:\Users\conor\source\repos\Personal-Projects\UaD River Scorekeeper\UaD River Scorekeeper\obj\Debug\net5.0\UaD River Scorekeeper.genruntimeconfig.cache
