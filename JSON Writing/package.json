@@ -1,0 +1,12 @@
+{
+  "name": "json-writing",
+  "version": "1.0.0",
+  "description": "A script to practice reading and writing JSON files.",
+  "main": "json-writer.js",
+  "scripts": {
+    "start": "node json-writer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Conor Race",
+  "license": "UNLICENSED"
+}
