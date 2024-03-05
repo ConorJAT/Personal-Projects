@@ -28,15 +28,15 @@
                 <li><a href="index.html#about-me">About Me</a></li>
                 <li><a href="index.html#game">Game Projects</a>
                     <ul class="nav-submenu">
+                        <li><a href="index.html#game-bloodshed">Bloodshed</a></li>
                         <li><a href="index.html#game-monster">Monster Pit</a></li>
                         <li><a href="index.html#game-electro">Electrodungeon</a></li>
-                        <li><a href="index.html#game-dragon">Draconic Heights</a></li>
                     </ul></li>
 
                 <li><a href="index.html#web">Web Projects</a>
                     <ul class="nav-submenu">
+                        <li><a href="index.html#web-gal">Image Gallery API</a></li>
                         <li><a href="index.html#web-pokemon">Pokemon Finder</a></li>
-                        <li><a href="index.html#web-jedi">Jedi Advice 101</a></li>
                         <li><a href="index.html#web-portfolio">My Portfolio</a></li>
                     </ul></li>
             </ul>
@@ -48,7 +48,6 @@
 
             <img src="images/family-pic.png" alt="Myself with my Family" id="title-bkgd">
         </div>
-
     </header>
 
     <main>
@@ -57,14 +56,28 @@
                 <img src="images/personal-pic.png" alt="Picture of Myself, Conor Race" class="ctnt-image"  id="about-me">
                 <h3>About The Creator</h3>
                 <p>Heya! My name is Conor Race, I am 20 years old and my pronouns are He/They. I am an aspiring
-                   front end developer and have a strong affinity for coding, scripting and data management. I am
+                   full stack developer and have a strong affinity for coding, scripting and data management. I am
                    currently studying game design and development at the Rochester Institute of Technology, with
                    web development as my minor. Throughout my time at RIT, I've created a plethora of web and game
                    projects that I'd like to share! Have a look!<br><br>
-                   <strong>Resumes: </strong><a href="documents/resume-game-dev.pdf" target="_blank">Game Developer</a> and <a href="documents/resume-web-dev.pdf" target="_blank">Web Developer</a></p>
+                   <strong>Resumes: </strong><a href="documents/resume.pdf" target="_blank">Game & Web Developer</a></p>
             </div>
 
+
             <h2 id="game">My Game Projects</h2>
+
+            <div class="ctnt-section">
+                <img src="images/game-bloodshed.png" alt="Title image for our game, Bloodshed" class="ctnt-image" id="game-bloodshed">
+                <h3>Bloodshed</h3>
+                <p>Bloodshed is a group project developed at RIT via Unity. Take up arms as a lost, tormented soul as you're
+                   forced to clash against endless hordes of monsters. Slash enemies to absorb their energy to prevent yourself
+                   from bleeding out and use experience points to unlock new, powerful skills that will help to keep you in the
+                   fight longer. How long will you last?<br><br>
+                   <strong>View/Play the game: </strong><a href="https://justinbaez.itch.io/bloodshed" target="_blank">Bloodshed</a> (Computer use reccomended!)<br>
+                   <strong>View the code: </strong><a href="https://github.com/ConorJAT/320-All-Hells-Loose" target="_blank">GitHub</a><p>
+
+                </p>
+            </div>
 
             <div class="ctnt-section">
                 <img src="images/game-monster.png" alt="Screenshot of The Monster Pit gameplay" class="ctnt-image" id="game-monster">
@@ -87,18 +100,21 @@
                    <strong>View the rulesheet: </strong><a href="documents/rules-electro.pdf" target="_blank">Electrodungeon Rules</a></p>
             </div>
 
-            <div class="ctnt-section">
-                <img src="images/game-dragon.png" alt="Screenshot of Draconic Heights gameplay" class="ctnt-image" id="game-dragon">
-                <h3>Draconic Heights</h3>
-                <p>Draconic Heights is a Unity game project developed at RIT. As enemies threaten to take control of the skies,
-                   it's your job to soar high and blast the threats out from the clouds. This game is simple "Shoot Em Up", where
-                   you take up the wings of a courageous dragon rider and earn as many points as you can defeating enemies! ASDW
-                   are used to move and space is used to shoot fireballs.<br><br>
-                   <strong>Play the game: </strong><a href="https://igme-202-2221.github.io/project-1-ConorJAT/" target="_blank">Draconic Heights</a> (Computer use reccomended!)<br>
-                   <strong>View the code: </strong><a href="https://github.com/IGME-202-2221/project-1-ConorJAT/tree/main/Shmup_Project1" target="_blank">GitHub</a></p>
-            </div>
 
             <h2 id="web">My Web Projects</h2>
+
+            <div class="ctnt-section">
+                <img src="images/web-img-gallery.png" alt="Screenshot of my Image Gallery Server API" class="ctnt-image" id="web-gal">
+                <h3>Image Gallery Server API</h3>
+                <p>This Image Gallery Server API allows users to create their own galleries and add/save images to
+                   these galleries. This server operates using Node.js and stores data in a series of JSON objects.
+                   Imagees specifically are sent to the server in the form of URLs and are retrieved in the form of
+                   readable image tags. Users are also able to remove galleries and images from galleries, should they
+                   no longer need them.<br><br>
+                   <strong>View the site: </strong><a href="https://igm430-api-project-ctr9664-6bed98354f1d.herokuapp.com/" target="_blank">Image Gallery Web App</a><br>
+                   <strong>View the code: </strong><a href="https://github.com/ConorJAT/430-api-project" target="_blank">GitHub</a><br>
+                </p>
+            </div>
 
             <div class="ctnt-section">
                 <img src="images/web-pokemon.png" alt="Screenshot of the Pokemon Finder" class="ctnt-image" id="web-pokemon">
@@ -109,17 +125,6 @@
                    exist. Additionally, this application will always save the last search term after being closed.<br><br>
                    <strong>View the site: </strong><a href="https://people.rit.edu/ctr9664/235/project2/" target="_blank">Pokemon Finder</a><br>
                    <strong>View the code: </strong><a href="https://github.com/ConorJAT/IGME-235/tree/main/proj2_pokemon" target="_blank">GitHub</a></p>
-            </div>
-
-            <div class="ctnt-section">
-                <img src="images/web-jedi.png" alt="Screenshot of Jedi Advice 101" class="ctnt-image" id="web-jedi">
-                <h3>Jedi Advice 101</h3>
-                <p>Jedi Advice 101 is a smaller web project developed at RIT. This simple webpage focuses on utilizing
-                   JavaScript in order to hold an array of popular jedi quotes from various Star Wars sources and displays
-                   a random quote every time the button is clicked/tapped. The interface was created using a combination
-                   of HTML and CSS, in order to create a neatly formatted display for the user.<br><br>
-                   <strong>View the site: </strong><a href="https://people.rit.edu/ctr9664/235/random_phrases/random-phrases.html" target="_blank">Jedi Advice 101</a><br>
-                   <strong>View the code: </strong><a href="https://github.com/ConorJAT/IGME-235/tree/main/random_phrases" target="_blank">GitHub</a></p>
             </div>
 
             <div class="ctnt-section">
